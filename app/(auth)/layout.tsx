@@ -2,7 +2,7 @@ import React from 'react';
 
 const AuthLayout = ({ children}: { children: React.ReactNode}) => {
     return (
-        <div className="bg-red-300 w-full">
+        <div className="flex justify-center">
             {children}
         </div>
     );
